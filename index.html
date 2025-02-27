@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="pages/index.css" />
-    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +20,53 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            class="nav__logo"
+            src="images/logo_coffeeshop_dark.svg"
+            alt="nav__logo"
+          />
+          <ul class="nav__links">
+            <li class="nav__link">Recetas</li>
+            <li class="nav__link">Reservar una mesa</li>
+            <li class="nav__link">Contactos</li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              <span class="header__span-accent">Café de especialidad</span>
+              <span> en Triple Peaks</span>
+            </h1>
+
+            <p class="header__description">
+              <span class="header__description_text"
+                >¡Te damos la bienvenida a nuestra zona de estudio!</span
+              >
+              <span
+                >Aquí tenemos café para darte energía y motivar tu
+                creatividad.</span
+              >
+            </p>
+          </div>
+          <img
+            src="images/inside_coffee_shop.png"
+            alt="inside_coffee_shop"
+            class="header__image"
+          />
+        </div>
+
+        <ul class="header__footer">
+          <li>Horario:</li>
+          <li>Lunes a Viernes (de 10:00h a 19:00h)</li>
+          <li>Sábados y Domingos (de 11:00h a 18:00h)</li>
+        </ul>
+
+        <p class="header__paragraph">
+          Avenida de Éxito 200, Ciudad Triple Peaks
+        </p>
+      </header>
       <main class="content">
         <section class="recipes"></section>
         <section class="reservation"></section>
