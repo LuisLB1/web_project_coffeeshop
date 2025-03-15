@@ -1,11 +1,7 @@
 .form {
   width: 385px;
 }
-.reservation__form {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 120px;
-}
+
 .form__fieldset {
   border: 0;
   padding: 0;
